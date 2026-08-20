@@ -1,0 +1,2487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #000000dc, #05628d, #17b8c4);
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+    margin: 0;
+    padding: 40px;
+}
+
+.vv {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div > a img {
+    border: 5px solid rgb(253, 253, 253);
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px auto;
+    object-fit: cover;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* hr {
+    border: none;
+    height: 12.5px;
+    background-color: black;
+    width: 100%;
+    margin: 40px auto;
+} */
+
+/* شريط التنقل */
+nav {
+    background: linear-gradient(135deg, #000000, #05628d, #17b8c4);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* الروابط */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 10px 18px;
+    border-radius: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+nav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #1098ce;
+}
+
+nav a.active {
+    background-color: #FFD700;
+    color: black;
+}
+
+.features {
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #17b8c4, #05628d, #000000dc);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+}
+
+.features h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.features h3 {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.features p {
+    color: rgb(247, 4, 4);
+    font-size: 18px;
+}
+
+.baebe {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #17b8c4, #05628d, #000000);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    line-height: 1.8; 
+}
+
+.baebe p {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.vnm {
+    font-size: 24px;          
+    color: #ffffff;           
+    font-weight: bold;
+}
+
+ruby rt {
+    font-size: 14px;         
+    color: #17b8c4;         
+    font-weight: normal;
+    user-select: none;    
+}
+
+ruby rp {
+    color: #888888;          
+    font-size: 14px;
+}
+
+#vv {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #17b8c4;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.terms {
+    width: 90%;
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #000000dc, #05628d, #17b8c4);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgb(202, 10, 10);
+}
+
+.terms h1 {
+    text-align: center;
+    color: #078899;
+    font-size: 40px;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #ff0000;
+}
+
+.terms h2 {
+    color: #ff0101;
+    font-size: 28px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border-left: 6px solid #ff0000;
+    transition: 0.3s;
+}
+
+.terms h2:hover {
+    color: #000000;
+}
+
+.terms h3 {
+    color: #000000;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.terms p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.terms ul {
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.terms li {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.terms li::marker {
+    color: #ff0000;
+}
+
+.terms p:hover,
+.terms li:hover {
+    color: #000;
+    transition: 0.3s;
+}
+
+.dezo4 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.dezo4 h1 {
+    text-align: center;
+    color: #09a9c5;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.dezo4 > p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq h2 {
+    background: #05628d;
+    color: rgb(240, 233, 233);
+    padding: 18px 25px;
+    border-radius: 12px 12px 0 0;
+    margin: 0;
+    font-size: 23px;
+}
+
+.faq p {
+    margin: 0;
+    padding: 20px 25px;
+    background: rgb(4, 94, 97);
+    color: #080808;
+    font-size: 18px;
+    line-height: 1.9;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 5px 15px rgba(180, 1, 1, 0.993);
+    transition: .3s;
+}
+
+.faq p:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(67, 143, 5, 0.986);
+}
+
+.dezo4 h2::before {
+    content: "🎓 ";
+}
+
+.dezo4 h2:hover {
+    background: #000000;
+    color: rgb(11, 85, 119);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.contact {
+    width: 90%;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #17b8c4, #05628d, #000000);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.35);
+    text-align: center;
+}
+
+.contact h1 {
+    color: #ad0202;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.9;
+    margin-bottom: 35px;
+}
+
+.contact h2 {
+    color: #c50202;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.contact a {
+    display: block;
+    width: 320px;
+    margin: 15px auto;
+    padding: 16px;
+    background: #f7f5f6;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: .3s;
+    box-shadow: 0 5px 15px rgb(233, 2, 2);
+}
+
+.contact a:hover {
+    background: #000000;
+    color: #e60a0a;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(172, 2, 135, 0.959);
+}
+
+.why-edzo {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.why-edzo h1 {
+    color: #ff0000;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: linear-gradient(135deg, #17b8c4, #05628d, #000000);
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(136, 8, 136, 0.979);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgb(238, 0, 0);
+}
+
+.card h2 {
+    color: #0e0c0c;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #fffdfd;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.courses {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.courses h1 {
+    color: #ff0000;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.courses > p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.course-card {
+    background: linear-gradient(135deg, #17b8c4, #05628d, #000000);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3);
+    transition: .3s;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+}
+
+.course-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.course-card h2 {
+    color: #ff0000;
+    margin: 20px 0 10px;
+}
+
+.course-card p {
+    color: rgb(2, 0, 0);
+    font-size: 17px;
+    margin: 8px 20px;
+}
+
+.course-card a {
+    display: inline-block;
+    margin: 20px;
+    padding: 12px 25px;
+    background: #fffffc;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.course-card a:hover {
+    background: rgb(0, 0, 0);
+    color: #ff0000;
+}
+
+button:hover {
+    background: rgb(17, 0, 255);
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+div {
+    animation: fade 1s;
+}
+
+/* ============================================
+   Responsive - تصغير المقاسات للموبايل
+   نفس الترتيب والمكان، بس أحجام أصغر
+   ============================================ */
+
+
+
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000000dc, #05628d, #17b8c4);
+            color: #000000;
+        }
+
+        /* Navigation */
+        .nm {
+            background: linear-gradient(135deg, #000000dc, #05628d, #17b8c4);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .nm a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            padding: 10px 18px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .nm a:hover {
+            background-color: rgb(0, 0, 0);
+            color: #1E3A8A;
+        }
+
+        .nm a.active {
+            background-color: #000000;
+            color: rgb(235, 0, 0);
+        }
+
+        /* Main container */
+        .terms-container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        /* Main card */
+        .terms-card {
+            background: linear-gradient(135deg, #17b8c4, #05628d, #000000);
+            border-radius: 20px;
+            padding: 45px;
+            box-shadow: 0 10px 30px rgb(255, 0, 0);
+        }
+
+        /* Main title */
+        .terms-card h1 {
+            text-align: center;
+            color: #690062;
+            margin-bottom: 15px;
+            font-size: 35px;
+        }
+
+        .intro {
+            text-align: center;
+            font-size: 17px;
+            line-height: 1.8;
+            margin-bottom: 35px;
+            color: #ffffff;
+        }
+
+        /* Sections */
+        .terms-section {
+            margin-bottom: 30px;
+        }
+
+        .terms-section h2 {
+            color: #000000;
+            font-size: 23px;
+            border-left: 5px solid #ff2600;
+            padding-left: 12px;
+            margin-bottom: 12px;
+        }
+
+        .terms-section p {
+            line-height: 1.8;
+            color: #3af39d;
+        }
+
+        .terms-section ul {
+            line-height: 2;
+            padding-left: 25px;
+            color: #5bff7f;
+        }
+
+        .terms-section li {
+            margin-bottom: 5px;
+        }
+
+        /* Agreement box */
+        .agreement {
+            background: #faf9fa;
+            border: 2px solid #ff0000;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .agreement h2 {
+            color: #ff0303;
+            border: none;
+            padding: 0;
+        }
+
+        .agreement p {
+            font-size: 17px;
+            font-weight: bold;
+            line-height: 1.8;
+        }
+
+        /* Back button */
+        .back-button {
+            display: block;
+            width: fit-content;
+            margin: 30px auto 0;
+            padding: 12px 25px;
+            background: #e40000;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .back-button:hover {
+            background: #000000;
+            color: rgb(223, 6, 6);
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            color: rgb(255, 253, 253);
+            padding: 25px;
+            font-size: 15px;
+        }
+
+        /* Mobile */
+        
+
+
+/* =========================
+   Edzo Teacher Help
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #05628d, #17b8c4);
+    color: #222;
+}
+
+
+/* =========================
+   Navigation
+========================= */
+
+.vb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 25px;
+    flex-wrap: wrap;
+}
+
+.vb a {
+    color: rgb(241, 237, 237);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.vb a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #24024b;
+}
+
+.vb a.active {
+    background-color: #000000;
+    color: rgb(245, 0, 0);
+}
+
+
+/* =========================
+   Header
+========================= */
+
+.help-header {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 45px 20px 25px;
+}
+
+.help-header h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.help-header p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Container
+========================= */
+
+.help-container {
+    max-width: 900px;
+    margin: 20px auto 60px;
+    padding: 20px;
+}
+
+
+/* =========================
+   Help Box
+========================= */
+
+.help-box {
+    background: rgb(255, 254, 254);
+    margin-bottom: 15px;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgb(255, 0, 0);
+}
+
+
+/* =========================
+   Question
+========================= */
+
+.help-question {
+    width: 100%;
+    border: none;
+    background: rgb(5, 0, 0);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #f70000;
+
+    transition: 0.3s;
+}
+
+.help-question:hover {
+    background: #f8f5f4;
+}
+
+
+/* =========================
+   Arrow
+========================= */
+
+.arrow {
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+
+/* =========================
+   Answer
+========================= */
+
+.help-answer {
+    max-height: 0;
+    overflow: hidden;
+
+    transition: max-height 0.4s ease;
+
+    background: #050000;
+}
+
+.help-answer p {
+    padding: 0 20px 10px;
+    margin: 0;
+
+    line-height: 2;
+    color: #350153;
+}
+
+.help-answer ul {
+    padding: 0 40px 20px;
+
+    line-height: 2;
+    color: #64005f;
+}
+
+
+/* =========================
+   Active
+========================= */
+
+.help-box.active .help-answer {
+    max-height: 500px;
+}
+
+.help-box.active .arrow {
+    transform: rotate(180deg);
+}
+
+
+/* =========================
+   Support
+========================= */
+
+.support {
+    background: rgb(3, 3, 3);
+
+    text-align: center;
+
+    padding: 35px 20px;
+
+    border-radius: 18px;
+
+    margin-top: 30px;
+
+    box-shadow: 0 5px 20px rgb(234, 0, 255);
+}
+
+.support h2 {
+    color: #f01000;
+}
+
+.support p {
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Support Buttons
+========================= */
+
+.support a {
+    display: inline-block;
+
+    margin: 8px;
+
+    padding: 12px 22px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.telegram {
+    background: #229ED9;
+    color: white;
+}
+
+.instagram {
+    background: #E1306C;
+    color: white;
+}
+
+.support a:hover {
+    transform: translateY(-3px);
+    opacity: 0.85;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+
+    padding: 25px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+
+
+/* =========================
+   Edzo Teacher Support
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000dc, #05628d, #17b8c4);
+
+    color: #ff0000;
+}
+
+
+/* =========================
+   Navigation
+========================= */
+
+nav {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 15px 25px;
+
+    flex-wrap: wrap;
+}
+
+
+.ed a {
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    padding: 10px 15px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+
+.ed a:hover {
+    background-color: rgb(0, 0, 0);
+
+    color: #2c003d;
+}
+
+.ed a.active {
+    background-color: #000000;
+
+    color: rgb(243, 0, 0);
+}
+
+
+/* =========================
+   Header
+========================= */
+
+.support-header {
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+
+    padding: 45px 20px 25px;
+}
+
+
+.support-header h1 {
+    font-size: 38px;
+
+    margin-bottom: 15px;
+}
+
+
+.support-header p {
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Main Container
+========================= */
+
+.support-container {
+    max-width: 900px;
+
+    margin: 20px auto 60px;
+
+    padding: 20px;
+}
+
+
+/* =========================
+   Cards
+========================= */
+
+.support-card,
+.direct-support,
+.support-hours,
+.requests {
+
+    background: linear-gradient(135deg, #17b8c4, #05628d, #000000);
+
+    border-radius: 18px;
+
+    padding: 35px;
+
+    margin-bottom: 25px;
+
+    box-shadow:
+        0 5px 20px rgb(255, 0, 0);
+}
+
+
+.support-card h2,
+.direct-support h2,
+.support-hours h2,
+.requests h2 {
+
+    color: #000000;
+
+    margin-top: 0;
+}
+
+
+/* =========================
+   Description
+========================= */
+
+.description {
+
+    color: #df0000;
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   Form
+========================= */
+
+form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+label {
+
+    font-weight: bold;
+
+    color: #e00043;
+
+    margin-top: 10px;
+}
+
+
+input,
+select,
+textarea {
+
+    width: 100%;
+
+    padding: 13px;
+
+    border: 2px solid #fa0000;
+
+    border-radius: 9px;
+
+    font-size: 15px;
+
+    font-family: Arial, sans-serif;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+
+    border-color: #000000;
+
+    box-shadow:
+        0 0 5px rgb(111, 230, 0);
+}
+
+
+textarea {
+
+    resize: vertical;
+}
+
+
+/* =========================
+   File Input
+========================= */
+
+input[type="file"] {
+
+    background: #ffffff;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   Submit Button
+========================= */
+
+form button {
+
+    margin-top: 20px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #000000;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+form button:hover {
+
+    background: #fdfdfc;
+
+    color: rgb(255, 3, 3);
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   Direct Support
+========================= */
+
+.direct-support {
+
+    text-align: center;
+}
+
+
+.direct-support p {
+
+    color: #ff0000;
+
+    line-height: 1.8;
+}
+
+
+.support-buttons {
+
+    margin-top: 25px;
+}
+
+
+.support-buttons a {
+
+    display: inline-block;
+
+    padding: 12px 22px;
+
+    margin: 7px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    color: rgb(0, 0, 0);
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.support-buttons a:hover {
+
+    transform: translateY(-3px);
+
+    opacity: 0.85;
+}
+
+
+.telegram {
+
+    background: #229ED9;
+}
+
+
+.instagram {
+
+    background: #E1306C;
+}
+
+
+.email {
+
+    background: #3e0458;
+}
+
+
+/* =========================
+   Support Hours
+========================= */
+
+.support-hours {
+
+    text-align: center;
+}
+
+
+.support-hours p {
+
+    color: #fffbfb;
+
+    line-height: 1.8;
+}
+
+
+.support-hours strong {
+
+    font-size: 22px;
+
+    color: #9dff00;
+}
+
+
+.note {
+
+    font-size: 13px;
+
+    margin-top: 15px;
+}
+
+
+/* =========================
+   Requests
+========================= */
+
+.requests {
+
+    text-align: center;
+}
+
+
+.empty {
+
+    background: #0071e2;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    color: #e90101;
+}
+
+
+/* =========================
+   Future Request
+========================= */
+
+.request {
+
+    text-align: right;
+
+    background: #f8fafc;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin-top: 15px;
+}
+
+
+.request h3 {
+
+    color: #44c508;
+}
+
+
+.request span {
+
+    font-weight: bold;
+
+    color: #d90606;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+
+    padding: 25px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+
+
+/* =========================
+   Edzo Student Terms
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+.nnm {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000dc, #05628d, #17b8c4);
+    color: #fd0000;
+}
+
+
+/* =========================
+   Navigation
+========================= */
+
+.bnn {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 15px 25px;
+
+    flex-wrap: wrap;
+}
+
+
+.bnn a {
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    padding: 10px 15px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+
+.bnn a:hover {
+    background-color: rgb(0, 0, 0);
+
+    color: #ff0000;
+}
+
+
+.bnn a.active {
+    background-color: #030003;
+
+    color: rgb(45, 1, 49);
+}
+
+
+/* =========================
+   Header
+========================= */
+
+.terms-header {
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+
+    padding: 50px 20px 30px;
+}
+
+
+.terms-header h1 {
+    font-size: 38px;
+
+    margin-bottom: 15px;
+}
+
+
+.terms-header p {
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Container
+========================= */
+
+.terms-container {
+    max-width: 950px;
+
+    margin: 20px auto 60px;
+
+    padding: 20px;
+}
+
+
+/* =========================
+   Terms Cards
+========================= */
+
+.terms-card {
+
+    background: linear-gradient(135deg, #17b8c4, #05628d, #000000);
+
+    padding: 30px;
+
+    margin-bottom: 20px;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 5px 20px rgb(234, 0, 255);
+
+    transition: 0.3s;
+}
+
+
+.terms-card:hover {
+
+    transform: translateY(-3px);
+}
+
+
+.terms-card h2 {
+
+    color: #eb4a00;
+
+    margin-top: 0;
+
+    margin-bottom: 15px;
+
+    font-size: 23px;
+}
+
+
+.terms-card p {
+
+    color: #ff0000;
+
+    line-height: 1.9;
+
+    font-size: 16px;
+}
+
+
+.terms-card ul {
+
+    color: #0b0c0b;
+
+    line-height: 2;
+
+    padding-right: 25px;
+}
+
+
+.terms-card li {
+
+    margin-bottom: 5px;
+}
+
+
+/* =========================
+   Agreement
+========================= */
+
+.agreement {
+
+    background: linear-gradient(135deg, #17b8c4, #05628d, #000000);
+
+    text-align: center;
+
+    padding: 35px;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 5px 20px rgb(255, 0, 0);
+
+    margin-top: 30px;
+}
+
+
+.agreement h2 {
+
+    color: #ff0000;
+
+    margin-top: 0;
+}
+
+
+.agreement p {
+
+    color: #1d0303;
+
+    line-height: 1.9;
+
+    max-width: 750px;
+
+    margin: 15px auto 25px;
+}
+
+
+.agreement-box {
+
+    display: inline-flex;
+
+    gap: 10px;
+
+    align-items: center;
+
+    padding: 12px 20px;
+
+    background: #f1f5f9;
+
+    border-radius: 10px;
+
+    color: #479e00;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+
+    padding: 25px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+
+
+
+/* =========================
+   Edzo Student Support
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(135deg, #000000dc, #05628d, #17b8c4);
+
+    color: #ff0000;
+}
+
+
+/* =========================
+   Navigation
+========================= */
+
+nav {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 15px 25px;
+
+    flex-wrap: wrap;
+}
+
+
+.cvbb a {
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    padding: 10px 15px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+
+.cvbb a:hover {
+    background-color: rgb(5, 4, 4);
+
+    color: #c300ff;
+}
+
+
+.cvbb a.active {
+    background-color: #000000;
+
+    color: rgb(4, 42, 255);
+}
+
+
+/* =========================
+   Header
+========================= */
+
+.support-header {
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+
+    padding: 50px 20px 30px;
+}
+
+
+.support-header h1 {
+    font-size: 38px;
+
+    margin-bottom: 15px;
+}
+
+
+.support-header p {
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Container
+========================= */
+
+.support-container {
+    max-width: 950px;
+
+    margin: 20px auto 60px;
+
+    padding: 20px;
+}
+
+
+/* =========================
+   Cards
+========================= */
+
+.support-card,
+.contact-support,
+.support-hours {
+
+    background: rgb(0, 0, 0);
+
+    padding: 35px;
+
+    margin-bottom: 25px;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 5px 20px rgba(43, 255, 0, 0.986);
+}
+
+
+.support-card h2,
+.contact-support h2,
+.support-hours h2 {
+
+    color: #f53900;
+
+    margin-top: 0;
+}
+
+
+.description {
+
+    color: #df0000;
+
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   Support Options
+========================= */
+
+.support-options {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 15px;
+}
+
+
+.support-option {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 18px;
+    
+    background: linear-gradient(135deg, #f7f4f4dc, #fd0037, #ff00aa);
+
+    border: 2px solid transparent;
+
+    border-radius: 12px;
+
+    text-decoration: none;
+
+    color: #000000;
+
+    transition: 0.3s;
+}
+
+
+.support-option:hover {
+
+    border-color: #ff4800;
+
+    background: #66ff00;
+
+    transform: translateY(-3px);
+}
+
+
+.support-option > span {
+
+    font-size: 32px;
+}
+
+
+.support-option h3 {
+
+    margin: 0 0 5px;
+
+    color: #000000;
+}
+
+
+.support-option p {
+
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================
+   Form
+========================= */
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+label {
+
+    font-weight: bold;
+
+    color: #fc0000;
+
+    margin-top: 10px;
+}
+
+
+input,
+select,
+textarea {
+
+    width: 100%;
+
+    padding: 13px;
+
+    border: 2px solid #ddd;
+
+    border-radius: 9px;
+
+    font-size: 15px;
+
+    font-family: Arial, sans-serif;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+
+    border-color: #ff0000;
+
+    box-shadow:
+        0 0 5px rgb(252, 0, 0);
+}
+
+
+textarea {
+
+    resize: vertical;
+}
+
+
+/* =========================
+   File
+========================= */
+
+input[type="file"] {
+
+    background: #ffffff;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   Submit Button
+========================= */
+
+form button {
+
+    margin-top: 20px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #ff0000;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+form button:hover {
+
+    background: #fcfafa;
+
+    color: rgb(255, 2, 2);
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   Direct Contact
+========================= */
+
+.contact-support {
+
+    text-align: center;
+}
+
+
+.contact-support p {
+
+    color: #f70000;
+
+    line-height: 1.8;
+}
+
+
+.contact-buttons {
+
+    margin-top: 25px;
+}
+
+
+.contact-buttons a {
+
+    display: inline-block;
+
+    padding: 12px 22px;
+
+    margin: 7px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    color: rgb(0, 0, 0);
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.contact-buttons a:hover {
+
+    transform: translateY(-3px);
+
+    opacity: 0.85;
+}
+
+
+.telegram {
+
+    background: #229ED9;
+}
+
+
+.instagram {
+
+    background: #E1306C;
+}
+
+
+.email {
+
+    background: #1E3A8A;
+}
+
+
+/* =========================
+   Support Hours
+========================= */
+
+.support-hours {
+
+    text-align: center;
+}
+
+
+.support-hours p {
+
+    color: #e70303;
+
+    line-height: 1.8;
+}
+
+
+.support-hours strong {
+
+    font-size: 22px;
+
+    color: #026846;
+}
+
+
+.note {
+
+    font-size: 13px;
+
+    margin-top: 15px;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+
+    padding: 25px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+/* =========================================================
+   EDZO RESPONSIVE
+   نفس تصميم الكمبيوتر - فقط تصغير وترتيب للموبايل
+   ========================================================= */
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        max-width: 100%;
+        padding: 12px;
+        overflow-x: hidden;
+    }
+
+    nav {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 13px;
+        padding: 8px 11px;
+        white-space: nowrap;
+    }
+
+    div > a img {
+        width: 150px;
+        height: 150px;
+        margin: 12px auto;
+    }
+
+    hr {
+        height: 6px;
+        margin: 20px auto;
+    }
+
+    .features,
+    .baebe,
+    .terms,
+    .dezo4,
+    .contact,
+    .why-edzo,
+    .courses,
+    .terms-container,
+    .help-container,
+    .support-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 25px auto;
+        padding: 18px;
+        box-sizing: border-box;
+    }
+
+    .features h2,
+    .terms h1,
+    .contact h1,
+    .why-edzo h1,
+    .courses h1,
+    .dezo4 h1,
+    .help-header h1,
+    .support-header h1,
+    .terms-header h1 {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+
+    .features h3,
+    .terms h2,
+    .terms-section h2,
+    .terms-card h2,
+    .contact h2,
+    .card h2,
+    .course-card h2,
+    .faq h2,
+    .support-card h2,
+    .direct-support h2,
+    .support-hours h2,
+    .requests h2 {
+        font-size: 18px;
+    }
+
+    .features p,
+    .baebe p,
+    .terms p,
+    .terms li,
+    .terms-section p,
+    .terms-section li,
+    .terms-card p,
+    .terms-card li,
+    .contact p,
+    .card p,
+    .course-card p,
+    .dezo4 > p,
+    .faq p,
+    .help-header p,
+    .support-header p,
+    .description,
+    .support-hours p,
+    .contact-support p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .cards,
+    .course-grid,
+    .support-options {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .card,
+    .course-card,
+    .support-card,
+    .direct-support,
+    .support-hours,
+    .requests,
+    .terms-card {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 18px;
+    }
+
+    .course-card img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+    }
+
+    .course-card a,
+    .contact a,
+    .contact-buttons a,
+    .support-buttons a {
+        max-width: 280px;
+        margin: 8px auto;
+        font-size: 14px;
+    }
+
+    input,
+    select,
+    textarea,
+    form button {
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    table,
+    pre,
+    iframe,
+    video {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 8px;
+    }
+
+    nav {
+        gap: 5px;
+        padding: 7px;
+    }
+
+    nav a {
+        font-size: 11px;
+        padding: 6px 8px;
+    }
+
+    div > a img {
+        width: 115px;
+        height: 115px;
+    }
+
+    .features,
+    .baebe,
+    .terms,
+    .dezo4,
+    .contact,
+    .why-edzo,
+    .courses,
+    .terms-container,
+    .help-container,
+    .support-container {
+        padding: 12px;
+        margin: 18px auto;
+    }
+
+    .features h2,
+    .terms h1,
+    .contact h1,
+    .why-edzo h1,
+    .courses h1,
+    .dezo4 h1,
+    .help-header h1,
+    .support-header h1,
+    .terms-header h1 {
+        font-size: 21px;
+    }
+
+    .features p,
+    .baebe p,
+    .terms p,
+    .terms li,
+    .terms-section p,
+    .terms-section li,
+    .terms-card p,
+    .terms-card li,
+    .contact p,
+    .card p,
+    .course-card p,
+    .dezo4 > p,
+    .faq p,
+    .help-header p,
+    .support-header p,
+    .description,
+    .support-hours p,
+    .contact-support p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .card,
+    .course-card,
+    .support-card,
+    .direct-support,
+    .support-hours,
+    .requests,
+    .terms-card {
+        padding: 14px;
+    }
+
+    .course-card img {
+        height: 140px;
+    }
+}
+/* --- تنسيق عام (Reset) --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* --- محتوى الصفحة الرئيسي --- */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* --- اسم التطبيق والنصوص --- */
+h1.app-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #d10000;
+}
+
+p.tagline {
+    font-size: 18px;
+    color: #6d0353;
+    margin-bottom: 16px;
+}
+
+
+
+/* --- حاوية الأزرار الرئيسية --- */
+.download-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+/* --- الحفاظ على أزرار المتاجر الأصلية كما هي تماماً وبدون أي تعديل على شكلها المستطيل --- */
+.store-button {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.store-button:hover {
+    transform: translateY(-2px);
+}
+
+.official-badge {
+    height: 44px;
+    width: auto;
+    display: block;
+}
+
+/* --- تصميم التذييل (Footer) العريض والمنظم --- */
+.site-footer {
+    background-color: #000000;
+    color: #c709a7;
+    padding-top: 50px;
+    width: 100%;
+    border-top: 1px solid #530335;
+    text-align: right;
+    direction: rtl;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.footer-col h3.footer-logo {
+    color: #df0606;
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.footer-col h4 {
+    color: #ca0d0d;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid #520552;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.footer-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #0077ff;
+    margin-bottom: 15px;
+}
+
+/* تنسيق شارة فريق BCS */
+.footer-dev-badge {
+    font-size: 13px;
+    color: #00df5d;
+    background: #161b22;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+    display: inline-block;
+}
+
+/* الروابط السريعة داخل الفوتر */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #8b949e;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #58a6ff;
+    padding-right: 4px;
+}
+
+/* تنسيق الأزرار داخل الفوتر (نفس الأزرار الأصلية) */
+.footer-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+/* الشريط السفلي للحقوق والتاريخ 2026 */
+.footer-bottom {
+    background-color: #010409;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: #6e7681;
+    border-top: 1px solid #21262d;
+    width: 100%;
+}
+
+/* --- التجاوب مع الشاشات الصغيرة --- */
+@media (max-width: 480px) {
+    .download-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* --- تعديل أزرار الفوتر حصرياً بدون التأثير على باقي الموقع --- */
+.site-footer .store-button {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    display: inline-block !important;
+}
+
+.site-footer .official-badge {
+    border-radius: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    height: 42px !important;
+    width: auto !important;
+}

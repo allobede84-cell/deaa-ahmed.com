@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edzo</title>
+    <link rel="icon" type="image/jpeg" href="edzo.jpg" >
+    <link rel="stylesheet" href="css.css"> 
+</head>
+
+</head>
+
+<body>
+
+
+<!-- =========================
+     Navigation
+========================= -->
+
+<nav class="cvbb">
+
+    <a href="index.html">🏠 Home</a>
+    <a href="student-support.html" class="active">
+        🎧 Support
+    </a>
+
+    
+
+</nav>
+
+
+<!-- =========================
+     Header
+========================= -->
+
+<header class="support-header">
+
+    <h1>🎧 Student Support</h1>
+
+    <p>
+        Need help with Edzo?
+        <br>
+        We are here to help you.
+    </p>
+
+</header>
+
+
+<!-- =========================
+     Main
+========================= -->
+
+<main class="support-container">
+
+
+    <!-- Support Categories -->
+
+    <section class="support-card">
+
+        <h2>🛠️ What do you need help with?</h2>
+
+        <p class="description">
+            Select the type of problem you are experiencing.
+        </p>
+
+
+        <div class="support-options">
+
+
+            <a href="#support-form" class="support-option">
+
+                <span>🔐</span>
+
+                <div>
+                    <h3>Login & Account</h3>
+
+                    <p>
+                        Problems with your account or login.
+                    </p>
+                </div>
+
+            </a>
+
+
+            <a href="#support-form" class="support-option">
+
+                <span>📚</span>
+
+                <div>
+                    <h3>Courses</h3>
+
+                    <p>
+                        Problems accessing or joining courses.
+                    </p>
+                </div>
+
+            </a>
+
+
+            <a href="#support-form" class="support-option">
+
+                <span>🎥</span>
+
+                <div>
+                    <h3>Lessons & Videos</h3>
+
+                    <p>
+                        Problems watching lessons or videos.
+                    </p>
+                </div>
+
+            </a>
+
+
+            <a href="#support-form" class="support-option">
+
+                <span>📄</span>
+
+                <div>
+                    <h3>Files & Downloads</h3>
+
+                    <p>
+                        Problems with PDF or other files.
+                    </p>
+                </div>
+
+            </a>
+
+
+            <a href="#support-form" class="support-option">
+
+                <span>💳</span>
+
+                <div>
+                    <h3>Payments</h3>
+
+                    <p>
+                        Problems with payments or purchases.
+                    </p>
+                </div>
+
+            </a>
+
+
+            <a href="#support-form" class="support-option">
+
+                <span>🔑</span>
+
+                <div>
+                    <h3>Join Code</h3>
+
+                    <p>
+                        Problems joining a course with a code.
+                    </p>
+                </div>
+
+            </a>
+
+
+            <a href="#support-form" class="support-option">
+
+                <span>⚠️</span>
+
+                <div>
+                    <h3>Technical Problem</h3>
+
+                    <p>
+                        Something is not working correctly.
+                    </p>
+                </div>
+
+            </a>
+
+
+            <a href="#support-form" class="support-option">
+
+                <span>🛡️</span>
+
+                <div>
+                    <h3>Report a Problem</h3>
+
+                    <p>
+                        Report inappropriate content or activity.
+                    </p>
+                </div>
+
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Support Form -->
+
+    <section class="support-card" id="support-form">
+
+        <h2>🎫 Submit a Support Request</h2>
+
+        <p class="description">
+            Describe your problem and our support team
+            will help you.
+        </p>
+
+
+        <form>
+
+
+            <label for="name">
+                👤 Your Name
+            </label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+
+            <label for="email">
+                📧 Email Address
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+
+
+            <label for="problem">
+                📂 Problem Type
+            </label>
+
+            <select id="problem" required>
+
+                <option value="">
+                    Select a problem
+                </option>
+
+                <option>🔐 Login & Account</option>
+
+                <option>📚 Courses</option>
+
+                <option>🎥 Lessons & Videos</option>
+
+                <option>📄 Files & Downloads</option>
+
+                <option>💳 Payments</option>
+
+                <option>🔑 Join Code</option>
+
+                <option>⚠️ Technical Problem</option>
+
+                <option>🛡️ Report a Problem</option>
+
+                <option>Other</option>
+
+            </select>
+
+
+            <label for="subject">
+                📝 Problem Title
+            </label>
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="Example: I cannot join my course"
+                required
+            >
+
+
+            <label for="message">
+                💬 Describe Your Problem
+            </label>
+
+            <textarea
+                id="message"
+                rows="7"
+                placeholder="Explain your problem in detail..."
+                required
+            ></textarea>
+
+
+            <label for="file">
+                📎 Attach a Screenshot
+            </label>
+
+            <input
+                type="file"
+                id="file"
+                accept="image/*"
+            >
+
+
+            <button type="submit">
+                📨 Send Support Request
+            </button>
+
+
+        </form>
+
+    </section>
+
+
+    <!-- Direct Contact -->
+
+    <section class="contact-support">
+
+        <h2>📞 Contact Us Directly</h2>
+
+        <p>
+            Need quick assistance?
+            Contact the Edzo support team directly.
+        </p>
+
+
+        <div class="contact-buttons">
+
+            <a href="#" class="telegram">
+                💬 Telegram
+            </a>
+
+            <a href="#" class="instagram">
+                📸 Instagram
+            </a>
+
+            <a href="mailto:support@edzo.com" class="email">
+                📧 Email
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Support Hours -->
+
+    <section class="support-hours">
+
+        <h2>🕐 Support Hours</h2>
+
+        <p>
+            Saturday – Thursday
+        </p>
+
+        <strong>
+            9:00 AM – 10:00 PM
+        </strong>
+
+        <p class="note">
+            Support hours may vary during holidays.
+        </p>
+
+    </section>
+
+
+</main>
+
+
+<!-- =========================
+     Footer
+========================= -->
+
+<footer>
+
+    <p>
+        <strong>Edzo</strong> — Your Gateway to Learning 🎓
+    </p>
+
+    <p>
+        © 2026 Edzo. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
+
